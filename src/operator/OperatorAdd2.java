@@ -9,7 +9,7 @@ public class OperatorAdd2 {
         b = ++a; //a의 값을 먼저 증가시키고 그 결과를 b에 대입
         System.out.println("a = " + a + ", b = " + b); //a = 2, b = 2
 
-        //후위 증감 연슨자 사용의 예
+        //후위 증감 연산자 사용의 예
         a = 1; //a의 값을 다시 1로 지정
         b = 0; //b의 값을 다시 0으로 지정
 
