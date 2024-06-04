@@ -17,4 +17,5 @@ public class If5 {
 
         System.out.println("총 할인 금액: " + discount + "원");
     }
+    //else와 달리 if를 두번쓰는것은 ,서로 독립된 다른 문장일때 사용한다
 }
