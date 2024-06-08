@@ -19,3 +19,5 @@ public class Switch3 {
         System.out.println("발급받은 쿠폰" + coupon);
     }
 }
+//예를들어서 grade가 2등급이면, case2가 실행되지만 case2는 break문이 없기때문에
+//다음인 case3을 실행하게 된다.
