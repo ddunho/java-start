@@ -9,7 +9,7 @@ public class Break1 {
             sum = sum + i;
             if(sum > 10){
                 System.out.println("합이 10보다 크면 종료: i=" + i + " sum=" + sum);
-                break; //break가 없으면 무한반복 > 탈출
+                break; //break가 없으면 무한반복 > break ->탈출
             }
             i++;
         }
