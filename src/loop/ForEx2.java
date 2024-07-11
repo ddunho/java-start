@@ -5,6 +5,12 @@ public class ForEx2 {
         for (int num = 2, count = 1; count <=10; num +=2, count++){
             System.out.println(num);
         }
+        /*
+        int num = 2;
+        for (int count = 1; count <= 10; , count++){
+        System.out.println(num);
+        num += 2; 가 더 깔끔한 코드.
+         */
 
     }
 }
