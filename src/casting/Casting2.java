@@ -9,5 +9,7 @@ public class Casting2 {
         intValue = (int) doubleValue; //소수점이 날라가도 변환하고싶을때 사용
         System.out.println(intValue);
 
+        System.out.println((int) 10.5);
+
     }
 }
