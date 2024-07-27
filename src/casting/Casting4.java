@@ -14,6 +14,10 @@ public class Casting4 {
         double div4 = (double) 3 / 2;
         System.out.println("div4 = " + div4); //1.5가 나옴
 
+        int a = 3;
+        int b = 2;
+        double result = (double) a / b;
+        System.out.println("result = " + result); //1.5가 나옴
 
     }
 }
