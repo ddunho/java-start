@@ -9,11 +9,11 @@ public class ScannerWhile1 {
         while (true){
             System.out.println("문자열을 입력하세요(exit: 종료) : ");
             String str = scanner.nextLine();
-            if (str.equals("exit")){
+            if (str.equals("exit")){//str.equals > java에서 문자열같은지 비교
+                System.out.println("프로그램을 종료합니다.");
                 break;
             }
             System.out.println("입력한 문자열: " + str);
         }
-        System.out.println("프로그램을 종료합니다.");
     }
 }
