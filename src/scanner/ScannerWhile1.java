@@ -6,7 +6,7 @@ public class ScannerWhile1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true){
+        while (true){//while (true) : break문을 만나기전까지 무한반복
             System.out.println("문자열을 입력하세요(exit: 종료) : ");
             String str = scanner.nextLine();
             if (str.equals("exit")){//str.equals > java에서 문자열같은지 비교
