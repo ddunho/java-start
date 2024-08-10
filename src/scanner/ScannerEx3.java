@@ -9,5 +9,9 @@ public class ScannerEx3 {
         System.out.print("음식 이름을 입력해주세요: ");
         String foodName = scanner.nextLine();
 
+        System.out.println("음식의 가격을 입력해주세요: ");
+        int foodPrice = scanner.nextInt();
+
+
     }
 }
