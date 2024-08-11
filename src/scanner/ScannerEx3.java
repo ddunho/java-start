@@ -12,6 +12,10 @@ public class ScannerEx3 {
         System.out.println("음식의 가격을 입력해주세요: ");
         int foodPrice = scanner.nextInt();
 
+        System.out.println("음식의 수량을 입력해주세요: ");
+        int foodQuantity = scanner.nextInt();
+
+
 
     }
 }
