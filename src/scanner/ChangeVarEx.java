@@ -4,9 +4,12 @@ public class ChangeVarEx {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
-        int temp;
+        int temp; //a의 값 10
 
         //시작: 코드를 작성하세요
+        temp = a;
+        a = b;
+        b = temp;
 
 
 
