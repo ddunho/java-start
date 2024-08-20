@@ -21,7 +21,8 @@ public class ScannerEx5 {
         System.out.print("두 숫자 사이의 모든 정수:");
         for(int i = num1; i <= num2; i++){
             System.out.print(i);
-            System.out.print(",");d
+            if (i != num2){
+            System.out.print(",");
 
         }
 
