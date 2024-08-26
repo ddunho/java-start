@@ -15,6 +15,12 @@ public class ScannerWhileEx1 {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             }
+
+            System.out.print("나이를 입력하세요. ");
+            int age = input.nextInt();
+
+            System.out.println("입력한 이름: " + name + ",  나이: " + age);
+
         }
     }
 }
