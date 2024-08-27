@@ -17,7 +17,8 @@ public class ScannerWhileEx1 {
             }
 
             System.out.print("나이를 입력하세요. ");
-            int age = input.nextInt();
+            int age = input.nextInt(); // 10\n
+            input.nextLine(); // \n
 
             System.out.println("입력한 이름: " + name + ",  나이: " + age);
 
