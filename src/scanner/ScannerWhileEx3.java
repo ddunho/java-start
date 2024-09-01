@@ -11,5 +11,16 @@ public class ScannerWhileEx3 {
         int input = 0;
 
         System.out.println("숫자를 입력하세요. 입력을 중단하려면 -1을 입력하세요: ");
+        while (true){
+            input = scanner.nextInt();
+            if (input == -1){
+                break;
+            }
+            sum += input;
+            count++;
+        }
+
+        double average = sum / count;
+
     }
 }
