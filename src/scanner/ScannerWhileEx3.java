@@ -20,7 +20,9 @@ public class ScannerWhileEx3 {
             count++;
         }
 
-        double average = sum / count;
+        double average = (double) sum / count; //double을 붙여줘야함 > 안붙이면 오류
+        System.out.println("입력한 숫자들의 합계: " + sum);
+        System.out.println("입력한 숫자들의 평균: " + average);
 
     }
 }
