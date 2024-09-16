@@ -13,12 +13,11 @@ public class ScannerWhileEx4 {
 
             if (option ==1) {
 
-            } else if (option == 2){
+            } else if (option == 2) {
 
-            } else if (option == 3){
+            } else if (option == 3) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
-            }
 
             } else {
                 System.out.println("올바른 옵션을 선택해주세요.");
