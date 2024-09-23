@@ -7,11 +7,12 @@ public class ScannerWhileEx4 {
         Scanner input = new Scanner(System.in);
         int totalCoast = 0;
 
-        while(true){
+        while (true) {
             System.out.println("1: 상품 입력, 2: 결제, 3: 프로그램 종료");
             int option = input.nextInt();
 
-            if (option ==1) {
+            if (option == 1) {
+                input.nextLine();
 
             } else if (option == 2) {
 
@@ -22,5 +23,6 @@ public class ScannerWhileEx4 {
             } else {
                 System.out.println("올바른 옵션을 선택해주세요.");
             }
+        }
     }
 }
