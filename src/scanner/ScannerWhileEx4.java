@@ -14,6 +14,15 @@ public class ScannerWhileEx4 {
             if (option == 1) {
                 input.nextLine();
 
+                System.out.print("상품명을 입력하세요: ");
+                String product = input.nextLine();
+
+                System.out.print("상품의 가격을 입력하세요: ");
+                int price = input.nextInt();
+
+                System.out.print("구매 수량을 입력하세요: ");
+                int quantity = input.nextInt();
+                git init
             } else if (option == 2) {
 
             } else if (option == 3) {
