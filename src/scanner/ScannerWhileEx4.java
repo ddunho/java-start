@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerWhileEx4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int totalCoast = 0;
+        int totalCost = 0;
 
         while (true) {
             System.out.println("1: 상품 입력, 2: 결제, 3: 프로그램 종료");
@@ -22,7 +22,9 @@ public class ScannerWhileEx4 {
 
                 System.out.print("구매 수량을 입력하세요: ");
                 int quantity = input.nextInt();
-                git init
+
+                totalCost += price * quantity;
+                System.out.println("상품명:" + product + " 가격:" + price + " 수량:" + quantity + " 합계:" + price * quantity);
             } else if (option == 2) {
 
             } else if (option == 3) {
