@@ -9,6 +9,9 @@ public class EnhancedFor1 {
             int number = numbers[i];
             System.out.println(number);
         }
-
+        //향상된 for문, for-each문
+        for(int number : numbers){
+            System.out.println(number);
+        }
     }
 }
