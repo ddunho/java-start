@@ -13,7 +13,8 @@ public class ArrayEx3 {
         }
 
         System.out.println("출력");
-        for (int i = 0; i < numbers.length; i++){
+        //0,1,2,3,4
+        for (int i = 4; i >= 0; i--){
             System.out.print(numbers[i]);
             if (i < numbers.length-1){
                 System.out.print(", ");
