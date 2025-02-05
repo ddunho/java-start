@@ -8,6 +8,12 @@ public class ArrayEx6 {
         int n = scanner.nextInt();
 
         int[] numbers = new int[n];
+        int minNumber, maxnumber;
+
+        System.out.println(n + "개의 정수를 입력하세요:");
+        for (int i = 0; i < n; i++){
+            numbers[i] = scanner.nextInt();
+        }
 
 
     }
