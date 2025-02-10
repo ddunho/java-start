@@ -17,10 +17,16 @@ public class ArrayEx6 {
 
         minNumber = maxNumber = numbers[0];
         for(int i = 1; i < n; i++){
-            if(numbers[i] < minNumber){
+            if (numbers[i] < minNumber){
                 minNumber = numbers[i];
             }
+            if (numbers[i] > maxNumber) {
+                maxNumber = numbers[i];
+            }
         }
+
+        System.out.println("가장 작은 정수: " + minNumber);
+        System.out.println("가장 큰 정수: " + maxNumber);
 
 
     }
