@@ -23,6 +23,8 @@ public class ArrayEx8 {
             for (int j = 0; j < 3; j++){
                 total += scores[i][j];
             }
+            double average = total / 3.0;
+            System.out.println((i + 1) + "번 학생의 총점: " + total + ", 평균: " + average);
         }
     }
 }
