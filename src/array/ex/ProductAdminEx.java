@@ -13,6 +13,7 @@ public class ProductAdminEx {
         while (true){
             System.out.print("1. 상품 등록 | 2. 상품 목록 | 3. 종료\n 메뉴를 선택하세요: ");
             int menu = scanner.nextInt();
+            scanner.nextLine();
 
             if (menu == 1){
                 System.out.print("상품 이름을 입력하세요:");
@@ -20,6 +21,8 @@ public class ProductAdminEx {
 
                 System.out.println("상품 가격을 입력하세요:");
                 productPrices[productCount] = scanner.nextInt();
+
+                productCount++;
             }
         }
     }
