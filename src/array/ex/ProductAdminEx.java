@@ -28,6 +28,12 @@ public class ProductAdminEx {
                 productPrices[productCount] = scanner.nextInt();
 
                 productCount++;
+            } else if (menu == 2){
+                System.out.println("등록된 상품이 없습니다.");
+                continue;
+            }
+            for(int i = 0; i< productCount; i++){
+                System.out.println(productNames[i] + ": " + productPrices[i] + "원0");
             }
         }
     }
