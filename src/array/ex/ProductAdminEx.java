@@ -34,6 +34,11 @@ public class ProductAdminEx {
             }
             for(int i = 0; i< productCount; i++){
                 System.out.println(productNames[i] + ": " + productPrices[i] + "원0");
+            } else if (menu == 3){
+                System.out.println("프로그램을 종료합니다.");
+                break;
+            } else{
+                System.out.println("잘못된 메뉴를 선택하셨습니다.");
             }
         }
     }
