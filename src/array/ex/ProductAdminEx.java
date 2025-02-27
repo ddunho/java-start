@@ -10,14 +10,14 @@ public class ProductAdminEx {
         int productCount = 0;
 
         Scanner scanner = new Scanner(System.in);
-        while (true){
+        while (true) {
             System.out.print("1. 상품 등록 | 2. 상품 목록 | 3. 종료\n 메뉴를 선택하세요: ");
             int menu = scanner.nextInt();
             scanner.nextLine();
 
-            if (menu == 1){
+            if (menu == 1) {
 
-                if (productCount >= maxProducts){
+                if (productCount >= maxProducts) {
                     System.out.println("더 이상 상품을 등록할 수 없습니다.");
                     continue;
                 }
@@ -28,13 +28,15 @@ public class ProductAdminEx {
                 productPrices[productCount] = scanner.nextInt();
 
                 productCount++;
-            } else if (menu == 2){
+            } else if (menu == 2) {
+                if (productCount == 0){
                 System.out.println("등록된 상품이 없습니다.");
                 continue;
             }
-            for(int i = 0; i< productCount; i++){
+            for (int i = 0; i < productCount; i++) {
                 System.out.println(productNames[i] + ": " + productPrices[i] + "원0");
-            } else if (menu == 3){
+            }
+        } else if (menu == 3){
                 System.out.println("프로그램을 종료합니다.");
                 break;
             } else{
