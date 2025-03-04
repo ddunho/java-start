@@ -18,4 +18,9 @@ public class Method1Ref {
         int sum2 = x + y;
         System.out.println("결과2 출력:" + sum2);
     }
+    //add 매서드
+    public static int add(int a, int b){
+        System.out.println(a + "+" + b) + "연산 수행";
+        int sum = a + b;
+    }
 }
