@@ -7,4 +7,10 @@ public class MethodValue2 {
         changeNumber(number);
         System.out.println("4. changeNumber 호출 후, number: " + number); // 출력 : 5
     }
+
+    public static void changeNumber(int number){
+        System.out.println("2. changeNumber 호출 전, number: " + number); //출력 : 5
+        number = number * 2;
+        System.out.println("3. changeNumber 호출 전, number: " + number); //출력 : 10
+    }
 }
