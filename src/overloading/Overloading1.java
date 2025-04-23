@@ -9,4 +9,9 @@ public class Overloading1 {
         System.out.println("1번 호출");
         return a + b;
     }
+
+    public static int add(int a, int b, int c){
+        System.out.println("2번 호출");
+        return a + b + c;
+    }
 }
