@@ -3,6 +3,8 @@ package overloading;
 public class Overloading2 {
 
     public static void main(String[] args) {
+        myMethod(1, 1.2);
+        myMethod(1.2, 1);
 
     }
 
