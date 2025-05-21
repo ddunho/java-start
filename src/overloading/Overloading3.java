@@ -13,7 +13,7 @@ public class Overloading3 {
         return a + b;
     }
 
-    public static int add(double a, double b){
+    public static double add(double a, double b){
         System.out.println("2번 호출");
         return a + b;
     }
