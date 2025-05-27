@@ -13,5 +13,11 @@ public class MethodEx1 {
         int x = 15;
         int y = 25;
         int z = 35;
+        System.out.println("평균값: " + average(x,y,z));
 
+}
+
+public static double average(int a, int b, int c){
+        int sum = a +  b + c;
+    }
 }
