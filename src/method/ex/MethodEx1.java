@@ -22,6 +22,14 @@ public static double average(int a, int b, int c){
         double average = sum / 3.0;
     System.out.println("평균값: " + average);
 
+    int x = 15;
+    int y = 25;
+    int z = 35;
+
+    sum = x + y + z;
+    average = sum / 3.0;
+    System.out.println("평균값: " + average);
+
 
     }
 }
