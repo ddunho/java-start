@@ -1,6 +1,6 @@
 package method.ex;
 
-public class MethodEx1 {
+public class MethodEx1Ref {
     public static void main(String[] args) {
         int a = 1;
         int b = 2;
@@ -19,5 +19,5 @@ public class MethodEx1 {
         System.out.println("평균값: " + average);
 }
 
-
+    
 }
