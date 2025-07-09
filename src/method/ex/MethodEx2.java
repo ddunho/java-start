@@ -6,5 +6,8 @@ public class MethodEx2 {
         for(int i = 0; i < 3; i++) {
             System.out.println(message);
         }
+        for(int i = 0; i < 5; i++){
+            System.out.println(message);
+        }
     }
 }
